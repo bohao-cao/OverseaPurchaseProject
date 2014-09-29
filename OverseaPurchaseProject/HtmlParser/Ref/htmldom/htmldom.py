@@ -817,14 +817,6 @@ class HtmlNodeList:
           else:
                raise IndexError
 
-     def attributes(self, attrName):
-         attrList = []
-         if len(self.nodeList) > 0:
-             for node in self.nodeList:
-                 [attrList.append(node.attr(attrName))]
-                 return attrList
-         else:
-             raise IndexError
 
      def removeAttr( self, attrName ):
         for node in self.nodeList:
