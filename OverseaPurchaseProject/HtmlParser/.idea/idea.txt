@@ -1,0 +1,13 @@
+div id=productGrid
+    div class="categoryDivier noWrap"Shoulder Bags (iterative)
+        div id="seq_x"  (iterative)
+            div class="product-image"
+                img class = "resultContent oneByOneImg lazy primary Image"
+            /div
+            div class="productInfo to_lowercase"
+                  p class="prod-title"
+                  /p
+                  p class="prodListPrice"
+                  /p
+            /div
+    /div
